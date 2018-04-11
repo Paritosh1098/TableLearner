@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.example.tablelearner"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+  
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Time left :10"
+        android:textSize="30dp"
+        android:id="@+id/time"
+        />
+    <TableLayout
+         android:id="@+id/table"
+        android:layout_width="match_parent"
+        android:layout_height="80dp" 
+        android:background="#ff9"
+      
+        android:layout_marginLeft="5dp" 
+        android:layout_marginRight="5dp"
+      
+        >      
+        
+       
+        <TableRow 
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:padding="5dp"
+    
+        >
+
+          
+        
+        <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="75dp"
+       android:background="#d91548"
+        android:layout_weight="1"
+        android:text="hello"
+        android:layout_margin="5dp"
+        android:id="@+id/text"
+        android:textSize="50dp"
+     />
+        
+       
+        <TextView 
+         android:layout_width="wrap_content"
+         android:layout_height="75dp"   
+         android:textSize="35dp"
+         android:text="Score:" 
+          android:layout_weight="1"
+          android:background="#009dde"
+           android:layout_margin="5dp"
+           
+           
+            />
+        <TextView 
+            android:layout_width="wrap_content"
+            android:layout_height="75dp"
+            android:textSize="35dp"
+            android:text="0"
+            android:layout_weight="1"
+            android:background="#009dde"
+            android:layout_margin="5dp"
+            android:id="@+id/score"
+            />
+
+        <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="75dp"
+           android:textSize="35dp"
+          android:text="Attempts:"
+           android:layout_weight="1"
+           android:background="#009dde"
+            android:layout_margin="5dp"
+         />
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:textSize="30dp"
+        android:text="5"
+        android:id="@+id/attempts"
+          android:background="#009dde"
+            android:layout_weight="1"
+        />
+       
+            
+        </TableRow>
+    </TableLayout>
+    <LinearLayout 
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical"  
+     >
+     <LinearLayout 
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:orientation="horizontal"
+         >
+        <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/one" 
+           android:onClick="One"
+           android:layout_weight="1"
+            />
+        <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/two" 
+            android:onClick="Two"
+            android:layout_weight="1"
+            />
+        <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/three" 
+            android:onClick="Three1"
+            android:layout_weight="1"
+            />
+        
+         
+         
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+
+         <Button
+             android:id="@+id/four"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_weight="1"
+             android:onClick="Four" />
+
+         <Button
+             android:id="@+id/five"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:onClick="Five"
+             android:text="" 
+             android:layout_weight="1"
+             />
+
+         <Button
+             android:id="@+id/six"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:onClick="Six"
+             android:layout_weight="1"
+             android:text="" />
+
+     </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         >
+         <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/seven" 
+            android:onClick="Seven"
+              android:layout_weight="1"
+            />
+         <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/eight" 
+            android:onClick="Eight"
+              android:layout_weight="1"
+            />
+         <Button 
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text=""
+           android:id="@+id/nine" 
+            android:onClick="Nine"
+              android:layout_weight="1"
+            />
+     </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
